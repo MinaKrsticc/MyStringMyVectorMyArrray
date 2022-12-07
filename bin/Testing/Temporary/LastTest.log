@@ -1,0 +1,86 @@
+Start testing: Dec 06 11:25 CET
+----------------------------------------------------------
+1/1 Testing: MyString_test
+1/1 Test: MyString_test
+Command: "/home/syrmia/myString_Cmake/bin/MyString_test"
+Directory: /home/syrmia/myString_Cmake/bin/tests
+"MyString_test" start time: Dec 06 11:25 CET
+Output:
+----------------------------------------------------------
+Running main() from /usr/src/gtest/src/gtest_main.cc
+[==========] Running 22 tests from 6 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from TestLen
+[ RUN      ] TestLen.OutputTest
+[       OK ] TestLen.OutputTest (0 ms)
+[----------] 1 test from TestLen (0 ms total)
+
+[----------] 1 test from TestCat
+[ RUN      ] TestCat.OutputTest
+[       OK ] TestCat.OutputTest (0 ms)
+[----------] 1 test from TestCat (0 ms total)
+
+[----------] 1 test from TestSubstring
+[ RUN      ] TestSubstring.OutputTest
+[       OK ] TestSubstring.OutputTest (0 ms)
+[----------] 1 test from TestSubstring (0 ms total)
+
+[----------] 1 test from TestAppend
+[ RUN      ] TestAppend.OutputTest
+[       OK ] TestAppend.OutputTest (0 ms)
+[----------] 1 test from TestAppend (0 ms total)
+
+[----------] 9 tests from MyArrayTest
+[ RUN      ] MyArrayTest.TestSizeOfArray
+[       OK ] MyArrayTest.TestSizeOfArray (0 ms)
+[ RUN      ] MyArrayTest.TestIsEmptyWhenIsNotEmpty
+[       OK ] MyArrayTest.TestIsEmptyWhenIsNotEmpty (0 ms)
+[ RUN      ] MyArrayTest.TestIsEmptyWhenIstEmpty
+[       OK ] MyArrayTest.TestIsEmptyWhenIstEmpty (0 ms)
+[ RUN      ] MyArrayTest.TestPushFrontWhenIsArrayEmpty
+[       OK ] MyArrayTest.TestPushFrontWhenIsArrayEmpty (0 ms)
+[ RUN      ] MyArrayTest.TestPushBackWhenArrayIsNotEmpty
+[       OK ] MyArrayTest.TestPushBackWhenArrayIsNotEmpty (0 ms)
+[ RUN      ] MyArrayTest.TestApendAt
+[       OK ] MyArrayTest.TestApendAt (0 ms)
+[ RUN      ] MyArrayTest.TestPopBack
+[       OK ] MyArrayTest.TestPopBack (0 ms)
+[ RUN      ] MyArrayTest.TestPopFront
+[       OK ] MyArrayTest.TestPopFront (0 ms)
+[ RUN      ] MyArrayTest.TestRemoveAt
+[       OK ] MyArrayTest.TestRemoveAt (0 ms)
+[----------] 9 tests from MyArrayTest (0 ms total)
+
+[----------] 9 tests from MyVectorTest
+[ RUN      ] MyVectorTest.TestSizeOfVector
+[       OK ] MyVectorTest.TestSizeOfVector (0 ms)
+[ RUN      ] MyVectorTest.TestIsEmptyWhenIsNotEmpty
+[       OK ] MyVectorTest.TestIsEmptyWhenIsNotEmpty (0 ms)
+[ RUN      ] MyVectorTest.TestIsEmptyWhenIstEmpty
+[       OK ] MyVectorTest.TestIsEmptyWhenIstEmpty (0 ms)
+[ RUN      ] MyVectorTest.TestPushFrontWhenIsVectorEmpty
+[       OK ] MyVectorTest.TestPushFrontWhenIsVectorEmpty (0 ms)
+[ RUN      ] MyVectorTest.TestPushBackWhenIsNotEmpty
+[       OK ] MyVectorTest.TestPushBackWhenIsNotEmpty (0 ms)
+[ RUN      ] MyVectorTest.TestApendAt
+[       OK ] MyVectorTest.TestApendAt (0 ms)
+[ RUN      ] MyVectorTest.TestPopBack
+[       OK ] MyVectorTest.TestPopBack (0 ms)
+[ RUN      ] MyVectorTest.TestPopFront
+[       OK ] MyVectorTest.TestPopFront (0 ms)
+[ RUN      ] MyVectorTest.TestRemoveAt
+[       OK ] MyVectorTest.TestRemoveAt (0 ms)
+[----------] 9 tests from MyVectorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 22 tests from 6 test suites ran. (0 ms total)
+[  PASSED  ] 22 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MyString_test" end time: Dec 06 11:25 CET
+"MyString_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 06 11:25 CET

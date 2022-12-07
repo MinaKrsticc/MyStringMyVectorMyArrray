@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libmyString.a CMakeFiles/myString.dir/my_string.cpp.o
+/usr/bin/ranlib ../../../lib/libmyString.a

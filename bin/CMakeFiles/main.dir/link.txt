@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wall -Wextra -fPIC -O3 -rdynamic CMakeFiles/main.dir/src/MyString/main.cpp.o -o main  ../lib/libmyString.a 

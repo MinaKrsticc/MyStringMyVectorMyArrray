@@ -1,0 +1,1 @@
+/usr/bin/g++ -Wall -Wextra -fPIC -O3 -rdynamic CMakeFiles/main.dir/main.cpp.o -o ../../../bin/main  ../../../lib/libmyString.a ../../../lib/libmyArray.a ../../../lib/libmyVector.a 
